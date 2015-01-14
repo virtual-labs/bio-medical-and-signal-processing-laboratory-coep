@@ -1,0 +1,108 @@
+
+
+		#tabs
+			{position:absolute;width:99%;height:681px;font-family:Times New Roman,times,serif;}
+		
+		#tabs-1	
+			{position:absolute;top:155px;width:1205px;height:498px;font-family:"Times New Roman",times,serif;border:2px solid gray;}
+			
+			#function1
+				{position:absolute;top:10px;width:350px;height:600px;}
+				
+				#pw
+					{position:absolute;top:40px;width:250px;height:30px;overflow-y:scroll}
+					
+				#ap1
+					{position:absolute;top:80px;width:180px;height:30px;overflow:auto;}	
+									
+				#ap
+					{position:absolute;top:85px;width:180px;height:10px;overflow:auto;border:2px solid gray;left:110px;}	
+				
+				#ap .ui-slider-handle { border:2px solid gray;background:gray;width:6px }
+				
+				#ap_val
+					{position:absolute;top:80px;width:40px;height:20px;overflow:auto;left:300px;border:0; color: #ef2929;/*#f6931f*/; font-weight:bold;}	
+				#hb1
+					{position:absolute;top:115px;width:180px;height:30px;overflow:auto;}	
+				#hb
+					{position:absolute;top:120px;width:180px;height:10px;overflow:auto;border:2px solid gray;left:110px;}	
+				
+				#hb .ui-slider-handle { border:2px solid gray;background:gray;width:6px }
+				
+				#amount
+					{position:absolute;top:115px;width:40px;height:20px;overflow:auto;left:300px;border:0; color: #ef2929;/*#f6931f*/; font-weight:bold;}	
+				
+				#type1
+					{position:absolute;top:160px;width:250px;height:30px;}
+				
+				#eg
+					{position:absolute;top:200px;width:380px;height:30px}
+				
+				
+			
+			#graph1
+				{position:absolute;top:10px;width:980px;height:600px;left:390px}
+				
+				#box1
+					{position:absolute;top:2px;width:900px;height:600px;left:10px}
+					
+				#scale1
+					{position:absolute;left:750px;top:10px;}
+				
+		#tabs-2
+			{position:absolute;top:130px;width:1290px;height:1050px;font-family:"Times New Roman",times,serif;border:2px solid gray;}
+			
+		#function2
+				{position:absolute;top:10px;width:350px;height:380px;border:2px solid gray}
+				#ohm1
+					{position:absolute;top:35px;width:180px;height:30px;overflow:auto;left:20px}	
+				#ohm
+					{position:absolute;top:40px;width:160px;height:10px;overflow:hidden;left:130px;border:2px solid gray;}	
+				#ohm .ui-slider-handle { border:2px solid gray;background:gray;width:6px }
+				
+				#val_om
+					{position:absolute;top:40px;width:50px;height:20px;overflow:auto;left:300px;border:0; color: #ef2929; font-weight:bold;}	
+				#volt1
+					{position:absolute;top:70px;width:180px;height:30px;overflow:auto;left:20px}	
+					
+				#volt
+					{position:absolute;top:80px;width:160px;height:10px;overflow:hidden;left:130px;border:2px solid gray;}	
+				#volt .ui-slider-handle { border:2px solid gray;background:gray;width:6px }
+				
+				#val
+					{position:absolute;top:80px;width:50px;height:20px;overflow:auto;left:300px;border:0; color: #ef2929; font-weight:bold;}	
+				
+				#content
+					{position:absolute;top:120px;height:18px;padding:3px;left:20px;background-color:#00ff00;}
+				#container
+					{position:absolute;top:120px;height:16px;padding:3px;left:20px;border:2px solid gray;width:142px;}
+				#empt
+					{position:absolute;top:120px;height:18px;padding:3px;left:20px;background-color:#ffffff;}
+				#fill
+					{position:absolute;top:160px;width:100px;height:30px;left:20px;}	
+				#empty
+					{position:absolute;top:160px;width:100px;height:30px;left:130px;}
+						
+			
+				
+				#type2
+					{position:absolute;top:200px;width:250px;height:30px;left:20px;}
+				#output
+					{position:absolute;top:272px;width:200px;height:40px;left:20px;border-style:ridge;border-width:5px;background-color:white;}
+				#output1
+				{position:absolute;top:240px;width:200px;height:20px;left:20px;border-style:ridge;border-width:5px;background-color:red;color:white;}
+				#reload
+					{position:absolute;top:330px;width:100px;height:30px;left:20px;}
+					
+				#graph2
+				{position:absolute;top:10px;width:930px;height:500px;left:390px;}
+				
+				#box2
+					{position:absolute;top:2px;width:852px;height:490px;left:5px}
+					
+				#scale2
+					{position:absolute;left:703px;top:10px;}
+				
+			
+		
+			

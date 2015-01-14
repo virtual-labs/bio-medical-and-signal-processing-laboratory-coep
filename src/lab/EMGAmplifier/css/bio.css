@@ -1,0 +1,105 @@
+#amplifi
+	{position:absolute;width:200px;top:20px;left:45px;-moz-border-radius:10px;}
+#amplifi1
+	{position:absolute;width:70px;top:20px;left:200px;-moz-border-radius:10px;}	
+#tabs-1
+	{position:absolute;width:100px;height:500px;left:1px;-moz-border-radius:10px;}
+#time
+	{position:absolute;top:25px;width:120px;height:30px;left:515px;border:0px solid black;}	
+#First		
+	{position:absolute;top:0px;width:1237px;height:500px;left:50px;border:2px solid gray;-moz-border-radius:10px;}
+#Diagram
+	{position:absolute;top:3px;width:400px;height:494px;left:53px;border:1px solid black;-moz-border-radius:10px;}
+#Calculation
+	{position:absolute;top:3px;width:400px;height:494px;left:412px;background-color:#CFECEC;border:1px solid black;-moz-border-radius:10px;overflow:auto;}
+#Graph
+	{position:absolute;bottom:12px;width:427px;background-color:#ADD8E6;height:494px;left:794px;border:1px solid black;-moz-border-radius:10px;}
+
+#Slider1
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:75px;border:1px solid green;}
+#unit	
+	{position:absolute;top:70px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}
+#Box1
+	{position:absolute;top:72px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}
+#lbl1	
+	{position:absolute;left:20px;top:65px;}	
+	
+	
+#Slider2
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:105px;border:1px solid green;}
+#unit1	
+	{position:absolute;top:100px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}
+#Box2
+	{position:absolute;top:102px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}
+#lbl2	
+	{position:absolute;left:20px;top:95px}		
+	
+	
+#Slider3
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:155px;border:1px solid brown;}
+#unit2	
+	{position:absolute;top:151px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}
+#Box3
+	{position:absolute;top:152px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}	
+#lbl3	
+	{position:absolute;left:20px;top:145px}		
+	
+	
+#Slider4
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:185px;border:1px solid red;}
+#unit3	
+	{position:absolute;top:181px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}	
+#Box4
+	{position:absolute;top:182px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}	
+#lbl4	
+	{position:absolute;left:20px;top:175px}		
+	
+	
+#Slider5
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:215px;border:1px solid brown;}
+#Box5
+	{position:absolute;top:213px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}
+#unit4	
+	{position:absolute;top:211px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}	
+#lbl5	
+	{position:absolute;left:20px;top:205px}		
+	
+	
+#Slider6
+	{position:absolute;width:180px;background:#6AFB92;height:10px;left:50px;top:245px;border:1px solid brown;	}
+#Box6
+	{position:absolute;top:242px;left:240px;width:40px;height:15px;border:1px solid black;-moz-border-radius:5px;}
+#unit5	
+	{position:absolute;top:241px;left:290px;width:70px;height:22px;border:1px solid black;-moz-border-radius:5px;}	
+#lbl6	
+	{position:absolute;left:05px;top:235px}		
+#output1
+	{position:absolute;left:30px;top:285px;height:50px;border:0px solid black;width:370px;}
+#output
+	{position:absolute;left:03px;top:320px;width:400px;height:130px;border:0px solid black;}
+#Reload
+	{position:absolute;left:160px;bottom:3px;background-color:#1589FF;-moz-border-radius:5px;}
+	
+	
+	
+#val
+	{position:relative;left:30px;top:55px;width:40px;height:10px;border:1px}	
+#val1	
+	{position:relative;left:30px;top:305px;width:40px;height:10px;}
+#val2	
+	{position:relative;left:185px;top:105px;width:40px;height:10px;}
+#val21	
+	{position:relative;left:185px;top:215px;width:40px;height:10px;}	
+#val3	
+	{position:relative;left:170px;top:275px;width:40px;height:10px;}
+#val31	
+	{position:relative;left:160px;top:05px;width:40px;height:10px;}
+#val4	
+	{position:relative;left:250px;top:250px;width:40px;height:10px;}	
+#val41	
+	{position:relative;left:260px;top:-10px;width:40px;height:10px;}		
+#val5	
+	{position:relative;left:185px;top:105px;width:40px;height:10px;}
+#val6	
+	{position:relative;left:330px;top:115px;width:60px;height:13px;}
+

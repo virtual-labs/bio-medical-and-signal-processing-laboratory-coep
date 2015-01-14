@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>ElectroencephaloGram</title>
+	<link rel="shortcut icon" href="./../../../favicon.ico">
+    <link href="css/eegDesign.css" rel="stylesheet" type="text/css">
+    <link href="../css/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css">
+    <link href="../css/common.css" rel="stylesheet" type="text/css">
+	<style>.imag{position:absolute;z-index:9999;left:833px;top:4px;}
+	.imag1{position:absolute;z-index:9999;left:1225px;top:85px;}</style>
+
+ </head>
+<body>
+
+<div class="header"><span style="font-size:20px; color: #ffffff;"><h3>&nbsp;&nbsp;ElectroencephaloGram (EEG)</h3></span><img class = "imag" src="../images/coep_logo_sim.png"></div>
+<div class="optioncontainer">
+<div class="start"><span id="start"><img id="startButton" src="images/start.png"></span>&nbsp;&nbsp;<span id="refresh"><img id="refreshButton" src="images/refresh.png"></span>&nbsp;&nbsp;&nbsp;&nbsp;<!--<span id="stop"><img  src="images/stop.png"></span> -->
+<select id="aniSec" style="display:none; position:absolute; top:7px; left:90px;">
+	<option value="25">.25 Sec</option>
+ 	<option value="50">.5 Sec</option>
+ 	<option value="1">1 Sec</option>
+ 	<option value="2">2 Sec</option>
+ 	<option value="3">3 Sec</option>
+ 	<option value="4">4 Sec</option>
+ 	<option value="5">5 Sec</option>
+ </select>
+</div>
+  <div class="samplingrate" id="samplingRate"><label>Sampling Rate &nbsp;(Hz)&nbsp; :- &nbsp;</label></div>
+  <div class="samplereturn" id="sampleReturn"><label>Sample To Return &nbsp;:- &nbsp;</label></div>
+  <div class="show" id="show"><input id="showGraph" type="button" name="show" value="Show"></input></div>
+  <div class="waveform" id="waveSelecter"><label>EEG WaveForm Selector &nbsp;:-&nbsp;</label></div>
+</div>
+<div class="mainContainer mainBackGround" id="option">
+<canvas id="myCanvas" width="1400" height="1200">
+<img id="image4" src="images/image5.png">
+<img id="image5" src="images/image6.png">
+</canvas>
+<div id="animationOn" style="position:absolute; left:590px; top:140px; width:32px; height:32px;"><img id="gray" src="images/Gray-icon.png"></div>
+<!--<div id="gray" style="position:absolute; left:590px; top:140px; width:32px; height:32px;"><img id="image7" src="images/Gray-icon.png"></div>-->
+<!--<input id="a" type="button" value="call">-->
+ <input id="type" type="text" value="" style="display:none;">
+ <input id="sec" type="text" value="" style="display:none;">
+
+<!-- upper two -->
+  	<div id="fp1" class="graph" style="top:370px; left:460px;"></div>
+  	<div id="fp2" class="graph" style="top:370px; left:690px;"></div>
+<!-- upper two end -->
+<!-- left six -->  	
+  	<div id="f7" class="graph" style="top:470px; left:10px;"></div>
+  	<div id="f8" class="graph" style="top:470px; left:1165px;"></div>
+  	<div id="f3" class="graph" style="top:470px; left:240px;"></div>
+  	<div id="t3" class="graph" style="top:650px; left:10px;"></div>
+  	<div id="f4" class="graph" style="top:470px; left:920px;"></div>
+  	<div id="c3" class="graph" style="top:650px; left:240px;"></div>
+ <!-- left six end --> 
+ <!-- right six -->
+  	<div id="c4" class="graph" style="top:650px; left:920px;"></div>
+  	<div id="p3" class="graph" style="top:830px; left:240px;"></div>
+  	<div id="t4" class="graph" style="top:650px; left:1165px;"></div>
+  	<div id="p4" class="graph" style="top:830px; left:920px;"></div>
+  	<div id="t5" class="graph" style="top:830px; left:10px;"></div>
+  	<div id="t6" class="graph" style="top:830px; left:1165px;"></div>
+  <!-- right six end -->
+  <!-- Bottom five -->
+  	<div id="cz" class="graph" style="top:1010px; left:110px;"></div>
+  	<div id="o1" class="graph" style="top:1010px; left:350px;"></div>
+  	<div id="fz" class="graph" style="top:1010px; left:590px;"></div>
+  	<div id="o2" class="graph" style="top:1010px; left:830px;"></div>
+  	<div id="pz" class="graph" style="top:1010px; left:1070px;"></div>
+  <!-- Bottom five end -->
+</div> 
+   
+<div id="ploting" style="position:relative; top:740px; left:500px; width:350px; height:350px;">
+   <img src="images/image1.png" border=0 height="350px" width="350px" > 
+   <div id="fp1_point" style="position:relative; top:-280px; left:150px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="fp2_point" style="position:relative; top:-295px; left:195px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="f7_point" style="position:relative; top:-280px; left:75px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="f8_point" style="position:relative; top:-295px; left:260px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="f3_point" style="position:relative; top:-300px; left:135px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="t3_point" style="position:relative; top:-267px; left:58px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="f4_point" style="position:relative; top:-330px; left:218px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="c3_point" style="position:relative; top:-297px; left:125px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="c4_point" style="position:relative; top:-315px; left:230px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="p3_point" style="position:relative; top:-278px; left:125px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="t4_point" style="position:relative; top:-343px; left:280px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="p4_point" style="position:relative; top:-310px; left:220px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="t5_point" style="position:relative; top:-315px; left:92px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="t6_point" style="position:relative; top:-332px; left:255px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="cz_point" style="position:relative; top:-400px; left:170px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="o1_point" style="position:relative; top:-328px; left:135px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="fz_point" style="position:relative; top:-480px; left:170px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="o2_point" style="position:relative; top:-358px; left:205px; width:15px; height:15px;"><img src="images/dot.png"></div>
+   <div id="pz_point" style="position:relative; top:-413px; left:173px; width:15px; height:15px;"><img src="images/dot.png"></div>
+</div>
+<div style="position:absolute; top:1444px; width:1405px; left:5px;margin:0px auto;">
+<div class="art-footer">
+                <div class="art-footer-t"></div>
+                <div class="art-footer-l"></div>
+                <div class="art-footer-b"></div>
+                <div class="art-footer-r"></div>
+                <div class="art-footer-body">
+                    <a href="#" class="art-rss-tag-icon" title="RSS"></a>
+					
+                            <div class="art-footer-text">
+                                <p><a href="#">About Us</a> | <a href="./../../../contacts.htm">Contact Us</a> | <a href="./../../../feedback.htm">Feedback</a></p><p>Copyright ©2011.COEP Virtual Lab.</p>
+                                                            </div>
+                    <div class="cleared"></div>
+                </div>
+            </div>
+</div>
+<div id="dialog" title="Dialog Title" style="display: none">
+		<p>dialog</p>
+	</div>
+	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../../lib/excanvas.js"></script><![endif]-->
+<script language="javascript" type="text/javascript" src="../lib/jquery-1.5.1.min.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery-ui-1.8.13.custom.min.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery.flot.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery.flot.selection.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery.flot.navigate.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery.ui.mouse.js"></script>
+<script language="javascript" type="text/javascript" src="../lib/jquery.jsPlumb-1.2.6-all.js"></script>
+<script language="javascript" type="text/javascript" src="js/Data/dataSet.js"></script>
+<script language="javascript" type="text/javascript" src="js/eeg.js"></script>
+	<div id="experiment_dialog" style="display:none" title="Already an experiment in progress" >
+		<p>
+			<span class="ui-icon ui-icon-alert"
+				style="float: left; margin: 0 7px 0 0;"></span> Details of 
+				experiment in progress
+		</p>
+		<p id="experiment_message"></p>
+
+	</div>
+				 <script type="text/javascript">
+	
+            $(document).ready(function() {
+            	
+            	$('#experiment_dialog').dialog('close');
+            	$.ajax({
+                    type: "GET",
+                    url: "../../../checkActivity.htm",
+                    datatype:"json",
+                    contentType: "application/json",
+                    success: function(result){
+                    	var result = jQuery.parseJSON(result);
+						if(result.isActive == "true") {
+							var buttons = {};
+                    		var experiment = result.experiment;
+                    		var exitAndRestart =  function () {
+                				$.ajax({
+    			                    type: "GET",
+    			                    url: "../../../exitAndStart.htm?expId=29",
+    			                    datatype:"json",
+    			                    success: function(result){
+    			                    
+    			                    }
+    							});
+    							$('#experiment_dialog').dialog('close');
+                			};
+                			
+                    		if(experiment.id == "29") { // same experiment .. so ask for restart
+                    			buttons["Restart Experiment"] = exitAndRestart
+                    		} else {
+                    			buttons["Start New Experiment"] =exitAndRestart
+                    		}
+                    		
+                    		buttons["Cancel"] = function() {
+                    			$('#experiment_dialog').dialog('close');
+                            }
+                    		
+                    		$('#experiment_dialog').dialog({
+                                autoOpen: false,
+                                width: 400,
+                                modal: true,
+                                resizable: false,
+                                buttons: buttons
+                            });
+                    		$('#experiment_dialog').dialog('open');
+                    		$('#experiment_message').text(experiment.experimentName).css("text-transform","uppercase");
+						} else {
+							$.ajax({
+			                    type: "GET",
+			                    url: "../../../startExperiment.htm?expId=29",
+			                    datatype:"json",
+			                    success: function(result){
+			                    
+			                    }
+							});
+						}
+                    }
+            	});
+            });
+            </script>
+</body>
+ 
+
+</html>
