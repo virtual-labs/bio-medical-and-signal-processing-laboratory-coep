@@ -1,138 +1,105 @@
-<!-- This file needs to be edited by the lab developer to suit
-the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
-specified in default.html. 
-Do not include class="default" to the elements that you want to
-edit --><!DOCTYPE html>
-<html><head></head><body>
-<div id="experiment"> <!-- The Experiment Document Container-->
-<!-- The lab Header contains the logo and the name of the lab,
-  usually displayed on the top of the page-->
-<header class="default" id="experiment-header">
-<div class="logo" id="experiment-header-logo">
-<!-- Enclose the logo image of your lab or write it in 
-      text-->
-<img src="../images/logo.png"/>
-</div>
-<div class="heading" id="experiment-header-heading">
-<!-- Write the name of your lab and link it to the home 
-      page of your lab (h1 tag is preferred while writing your 
-      lab name)-->
-<a href="../index.html">	Biomedical and Signal processing Laboratory</a>
-</div>
-<!-- Add any additional element you want to add to the lab 
-    header, For example : Help (Enclosing them with suitable 
-    div is recommended)-->
-</header>
-<!-- The lab article is the main content area where all the 
-  experiment content sits-->
-<article id="experiment-article">
-<!-- The lab article has an header, optional navigational 
-    menu, number of sections, an optional sidebar and a closing 
-    footer-->
-<div class="breadcrumb" id="experiment-article-breadcrumb">
-</div>
-<header class="heading" id="experiment-article-heading">To simulate Pacemaker</header>
-<!-- Navigation menu is useful to organize the view of 
-      multiple sections inside the article-->
-<nav class="default" id="experiment-article-navigation">
-<ul id="experiment-article-navigation-menu">
-<!-- The menu can be dynamically generated to contain 
-          the headings of your sections or instead write the 
-          menu items of your choice individually enclosedu in 
-          &lt;li&gt; tag as shown below-->
-</ul>
-</nav>
-<!-- All the sections of your lab or experiment can be 
-      enclosed together with a div element as shown below-->
-<div id="experiment-article-sections">
-<!-- First section of the article-->
-<section id="experiment-article-section-1" style = "margin-left:50px">
-<div class="icon" id="experiment-article-section-1-icon">
-<!-- Enclose the icon image of your lab -->
-<img src="../images/content_95.png"/>
-</div>
-<!-- The heading for the section can be enclosed in a 
-          div tag. -->
-<div class="heading" id="experiment-article-section-1-heading">
-            Aim
-          </div>
-<!-- Write the section content inside a paragraph 
-          element, You can also include images with &lt;img&gt; tag -->
-<div class="content" id="experiment-article-section-1-content"><div class="divContent"><h2 style="color: Red;"><strong><u><span style="font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);"><span style="font-size: large;">Aim</span></span></u></strong></h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Welcome to Virtual Labs - A MHRD Govt of india Initiative">
+    <meta name="author" content="Virtual Labs - A MHRD Govt of india Initiative">
+    
+    <title>Welcome to Virtual Labs - A MHRD Govt of india Initiative</title>
+    
+     <link rel="shortcut icon" href="../../../images/favicon.ico">
+    
+ 
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
 
+	<!-- Important Owl stylesheet -->
+	<link rel="stylesheet" href="../../../vendors/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="../../../vendors/owl-carousel/owl.theme.css">
+	
+	<link rel="stylesheet" href="../../../vendors/font-awesome/css/font-awesome.css">
 
+    <!-- Custom CSS -->
+    <link href="../../../css/style.css" rel="stylesheet">
+	<script type="text/javascript" src = 'tabs.js'></script>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-67558473-1', 'auto');ga('send', 'pageview');</script>	
+</head>
+<body id="page-top" class="index">
+<div id="top">
+	<header>
+	<!-- Navigation -->
+	    <nav class="navbar navbar-default " style="background-color: white !important; margin-bottom: 0px !important;">
+	        <div class="container-fluid">
+			            <!-- Brand and toggle get grouped for better mobile display -->
+			            <div class="navbar-header page-scroll">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			                    <span class="sr-only">Toggle navigation</span>
+			                    <span class="icon-bar" style="background-color: #77BB41"></span>
+			                    <span class="icon-bar" style="background-color: #77BB41"></span>
+			                    <span class="icon-bar" style="background-color: #77BB41"></span>
+			                </button>
+			                <a class="navbar-brand main-logo-a" href="http://vlabs.ac.in/index.html"><img src="../../../images/logo-new.png" class="img-responsive main-logo" /></a>
+			            </div>			
+			                        
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-div" id="bs-example-navbar-collapse-1" style="border: 0px;">
+			               
+			                <ul class="nav navbar-nav navbar-right menu-ul search-ul" style="position: relative; top: -5px;">
+			                	<li>
+			                		<form method="get" action="../../../search-result.html">
+			                        	<input type="text" class="search-textbox" placeholder="SEARCH FOR A LAB" name="q" id="q"/>
+			                        	<input type="submit" value="" class="search-button" />
+			                        </form>
+			                	</li>
+			                </ul>
+			                
+			             <ul class="nav navbar-nav navbar-right menu-ul">
+			                    <li class="page-scroll menu-li " >
+			                        <a href="http://vlabs.ac.in/index.html" class="menu-a" >HOME</a>
+			                    </li>
+			                    <li class="page-scroll menu-li menu-li-active">
+			                        <a href="http://vlabs.ac.in/labs.html"  class="menu-a menu-a-active" >ALL LABS</a>
+			                    </li>
+			                    <li class="page-scroll menu-li " >
+			                        <a href="http://vlabs.ac.in/index.html#partner" class="menu-a" >PARTNERS</a>
+			                    </li><li class="page-scroll menu-li " >
+			                        <a href="http://vlabs.ac.in/index.html#contact" class="menu-a" >CONTACT</a>
+			                    </li>
+			                </ul>
+			                
+			               
+			                	
+			            </div>
+			            <!-- /.navbar-collapse -->  
+	        </div>
+	        <!-- /.container-fluid -->
+	    </nav>
+	</header>
 
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;">Aim:</span></strong></span> <span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">  To Simulate pacemaker.</span></p>
-
-
-
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;">Pre-Requisites:-</span></strong></span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         1. Knowledge of cardiac arrihthmias</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         2. Tools like NI LabVIEW and MATLAB<br/>
-</span></p>
-
-
-
-
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;">Objective:-</span></strong></span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         1. To simulate the pacemaker output waveform.</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         2. To understand various energy levels generated by pacemaker.<br/>
-</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         3. To understand the necessity and applications of pacemaker.
-<br/>
-</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         4. To understand various types and configurations of pacemaker.
-<br/>
-</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         5. To understand various controls associated with the pacemaker.
-<br/>
-</span></p>
-
-
-
-
-<p style="margin-bottom: 0cm;"> </p>
-<p style="margin-bottom: 0cm;"> </p>
-<p style="margin-bottom: 0cm;"> </p>
-<p><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);"><br/>
-</span></p>
-</section>
-<!-- Second section of the article-->
-<section id="experiment-article-section-2">
-<div class="icon" id="experiment-article-section-2-icon">
-<!-- Enclose the icon image of your lab. -->
-<img src="../images/content_94.png"/>
-</div>
-<!-- The heading for the section can be enclosed in a 
-        div tag. -->
-<div class="heading" id="experiment-article-section-2-heading">
-          Pre Test
-        </div>
-<!-- Write the section content inside a paragraph 
-        element, we can also include images with &lt;img&gt; tag -->
-<div class="content" id="experiment-article-section-2-content"><div class="divQuiz"><div id="displayQuiz"><form id="form11" method="post" name="form11"><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		Adams stokes attacks can be successfully treated with a</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans5998" name="ans0" type="radio" value="5998"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans5998">Defibrillator</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans5999" name="ans0" type="radio" value="5999"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans5999">Nerve stimulator</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6000" name="ans0" type="radio" value="6000"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6000">Artificial heart valve</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6001" name="ans0" type="radio" value="6001"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6001">Pacemaker</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		During Myocardial Infarction, one can use</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6002" name="ans1" type="radio" value="6002"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6002">Pacemaker</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6003" name="ans1" type="radio" value="6003"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6003">Heart lung machine</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6004" name="ans1" type="radio" value="6004"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6004">Nerve stimulator</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6005" name="ans1" type="radio" value="6005"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6005">Kidney Machine</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">	To produce ventricular contraction with an electric pulse, the minimum energy required is</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6006" name="ans2" type="radio" value="6006"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6006">10µJ</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6007" name="ans2" type="radio" value="6007"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6007">1J</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6008" name="ans2" type="radio" value="6008"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6008">10 mW</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6009" name="ans2" type="radio" value="6009"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6009">1W</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		Suppose the pacemaker pulse has high energy and occurs during the vulnerable part of the T wave then the heart is in</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6037" name="ans3" type="radio" value="6037"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6037">normal state</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6036" name="ans3" type="radio" value="6036"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6036">atrial fibrillation</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6035" name="ans3" type="radio" value="6035"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6035">ventricular fibrillation</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6034" name="ans3" type="radio" value="6034"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6034">low pressure</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The commonest source of energy for pacemaker is the</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6046" name="ans4" type="radio" value="6046"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6046">mercury battery</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6047" name="ans4" type="radio" value="6047"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6047">the ordinary dry cell</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6048" name="ans4" type="radio" value="6048"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6048">nuclear battery</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6049" name="ans4" type="radio" value="6049"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6049">solar cell</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><input align="middle" id="loadTime" name="loadTime" type="hidden" value="1379688870/"/><br/><div style="padding-left:40px;"><input id="submit1" name="submit1" onclick="get_radio_value();" style="width:8%;" type="submit" value=" Submit "/>  <input id="cancel1" name="cancel1" style="width:8%;" type="reset" value=" Cancel "/></div></form><br/></div><br/></div></div>
-</section>
-<section id="experiment-article-section-3">
-<div class="icon" id="experiment-article-section-3-icon">
-<!-- Enclose the icon image of your lab. -->
-<img src="../images/content_1.png"/>
-</div>
-<div class="heading" id="experiment-article-section-3-heading">
-          Theory
-        </div>
-<div class="content" id="experiment-article-section-3-content"><div class="divContent"><p>
-
+	<div id="content">
+			<div class="container-fluid" >
+				<div class="row">
+					<hr style="background:#ff6600 !important;  height: 8px; margin-top: 0px;">
+				</div> <!-- row end -->
+			</div> <!-- container-fluid end for slider -->
+			
+			
+			<!-- =================================================================================================================================== -->
+			<div class="container-fluid"  style="margin-left: 35px; margin-right: 35px;">
+				<h2 class="text-h2-lightblue" style=" margin-bottom: 20px; margin-top: 10px; "><a href="http://vlabs.ac.in/biotechnology-and-biochemical-engineering-labs.html" class="sidebar-a" >Biotechnology & Biomedical Engineering</a> &rarr;<a href="../Introduction.html" class="sidebar-a" >Biomedical and Signal processing Laboratory</a>&nbsp&rarr;<a href="../List of experiments.html" class="sidebar-a" >List Of Experiments</a><br/></h2>
+					
+					<div class="row">
+						<div class="col-md-2 sidebar-col-2">
+						<!--edit1-->
+<a href="Aim.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Aim</h3></a><a href="Pre Test.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Pre Test</h3></a><a href="Theory.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Theory</h3></a><a href="Simulator.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Simulator</h3></a><a href="Procedure.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Procedure</h3></a><a href="Post Test.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Post Test</h3></a><a href="Conclusion.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Conclusion</h3></a><a href="Feedback.html?domain=Biotechnology&lab=Biomedical and Signal processing Laboratory" class="sidebar-a" > <h3 class="text-h3-darkblue" style="margin-top: 2px;">Feedback</h3></a>						</div>
+						
+						<div class="col-md-10 lab-list-col-10">
+							
+							<!--edit -->
+<h1 class="text-h2-lightblue">To simulate Pacemaker</h1><div class="content" id="experiment-article-section-3-content"><div class="divContent"><p>
 <p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>
-
-
 <b>Theory:</b><br/><br/>
 
  
@@ -154,9 +121,7 @@ There are two common and important electric stimulator devices used to detect an
 
                         –Cardiac Pacemakers<br/>
 
-                        –Cardiac Defibrillators<br/><br/>            
- 
-
+                        –Cardiac Defibrillators<br/><br/>
 <b>What is a pacemaker?</b><br/><br/>
 
  
@@ -164,9 +129,6 @@ There are two common and important electric stimulator devices used to detect an
 A pacemaker is an electronic device that provides an electrical signal to make the heart beat when it’s own, built-in pacemakers fail. The anatomical, built-in pacemakers provide what’s called the “intrinsic” rhythm, and they can be disrupted by various conditions –  ischemia for example, or by an MI.<br/>
 
 It is prosthetic device for the heart, first conceived in 1932 by Albert S. Hymen, an American cardiologist. In 1952 the pacemaker was used clinically by Paul M. Zoll as an external device.<br/><br/>
-
- 
-
 <b>What is cardiac arrhythmia?</b><br/><br/>
 
  
@@ -178,29 +140,23 @@ There are several reasons for cardiac arrhythmia. One of the reason for arrhythm
  
 
 Here some examples given for various degree of AV node block.<br/><br/>
-
-
 <b>first degree AV block</b><br/><br/>
-
-<center><img src="images/1111.png" /></center> <br/><br/>
+<center><img src="images/1111.png"/></center> <br/><br/>
 
 This is a fairly simple and subtle AV block caused by the delay of the impulse at the diseased AV node. It is reflected in the PR interval, which the is part of the waveform measured from the beginning of the P wave to the beginning of the QRS complex. In a healthy heart the PR interval is 0.2 seconds in length.<br/><br/>
 
 The second degree blocks are broken into two types. We will look at each one individually…<br/><br/>
 
 The second degree type I, also known as the Mobitz Type I or the Wenckebach, is where the impulse is delayed at the AV node longer than usual, increasing the interval until eventually the AV node fails to conduct the impulse on. The result is a “dropped” beat. This is commonly taught as the “going, going, going, gone” block. This block is the less dangerous of the two second degree blocks, but should be monitored appropriately.<br/><br/>
-
-<center><img src="images/1222.png" /></center><br/><br/>
+<center><img src="images/1222.png"/></center><br/><br/>
 
 The second degree type II, Also known as the Mobitz Type II or the Hay, is a disease of the distal conduction system where it simply fails to conduct a beat. There is no set pattern to how often or when it will occur. This is most dangerous of the second degree blocks because the AV node may drop a beat and progress into a complete heart block or fail to generate an escape beat, resulting in cardiac arrest.<br/><br/>
-
-<center><img src="images/333.png" /></center><br/><br/>
+<center><img src="images/333.png"/></center><br/><br/>
 
 The third degree block is the most dangerous of the three types. It is where the SA node and the AV node are working out of sync. The SA node is still sending an impulse, but the AV node is not picking it up and the Bundle of His is generating escape beats in order to keep the ventricles operating. This will be recognized in the ECG as two separate rhythms. The P-P interval (measurement from P wave to P wave) will show one rhythm and the R-R interval will show another.<br/><br/>
-<center><img src="images/4444.png" /></center><br/><br/>
+<center><img src="images/4444.png"/></center><br/><br/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Here we have seen different kind of cardiac disorder. <br/><br/>
-
+        Here we have seen different kind of cardiac disorder. <br/><br/>
 <b>Pacemaker classification:</b><br/><br/>
 
  
@@ -214,9 +170,6 @@ Pacemaker can classified in two category<br/>
 Based on cardiac disorder physician decide which pacemaker to be used.If pacemaker requires temporary to correct cardiac rhythm then external pacemaker is used but if pacemaker require permanent than implantable pacemaker is used.<br/><br/>
 
 Again pacemaker can be classified in two type<br/><br/>
-
- 
-
 <b>Asynchronous pacemaker :</b><br/><br/>
 
  
@@ -230,9 +183,6 @@ It can be varied externally within the range of 60 PPM to 180 PPM. Since this pa
 functions regardless of the patient’s natural heart rhythm it poses a potential danger because of<br/>
 
 competition between the patient’s rhythm and that of the pacemaker<br/><br/>
-
- 
-
 <b>Synchronous pacemaker:</b><br/><br/>
 
  
@@ -240,9 +190,6 @@ competition between the patient’s rhythm and that of the pacemaker<br/><br/>
 In patients who have normal heart function most of the time, asynchronous pacing can be extremely dangerous, working against their own physiological pacemaker with the danger of stimulating in the vulnerable period of the T wave, a condition that can result in fibrillation.
 <br/>
 The demand pacemaker consists of an ECG amplifier and a conventional pacemaker output pulse circuit that has been modified to allow output from the ECG amplifier to inhibit the pulse generator. This pacemaker senses R-waves and its timing and logic circuits count out an elapsed time interval following an R-wave or previously induced pulse. If the intrinsic R-wave does not appear before the elapsed time interval, the ventricle is stimulated. If an R-wave is received, the counter is reset again. This type of pacemaker is used for patients with bradycardia, and it ensures a heartbeat no slower than its set rate.<br/><br/>
-
- 
-
 <b>Intended use:</b><br/><br/>
 
  
@@ -270,11 +217,7 @@ prophylactic or diagnostic purposes.<br/>
 · Acute myocardial infarction applition by heart block<br/>
 
 · High rate burst pacing for the treatment of supraventriculrtrachy-arrhythmias<br/><br/>
-
- 
-
 <b>Asynchronous pacemaker:</b><br/><br/>
-
 <center><img src="images/Block Diagram of asynchronous pacemaker.png"/></center><br/><br/>
 
 Block diagram  showsvarious components of asynchronous pacemaker<br/><br/>
@@ -299,38 +242,25 @@ Output circuit produces the electrical stimuli to be applied to the heart<br/>
 
 •Constant-voltage pulses<br/>
 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–Typically rated at 5.0 to 5.5V for 500 to 600μs<br/>
+             –Typically rated at 5.0 to 5.5V for 500 to 600μs<br/>
 
 •Constant-current pulses<br/>
 
-     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;–Typically rated at 8 to 10mA for 1.0 to 1.2ms<br/>
+            –Typically rated at 8 to 10mA for 1.0 to 1.2ms<br/>
 
 •Asynchronous pacing rates –70 to 90 beats per min<br/><br/>
-
 <center><img src="images/555.png"/></center><br/><br/>
 Figure show the ideal wave form and realistic waveform of output circuit of pacemaker.<br/>
 
 Realistic depiction of waveform appearing across heart emitted from capacitor discharge  output circuit.<br/>
-
- 
-
 <b>Stimulus energy:</b><br/><br/>
-
-<center><img src="images/The energy is proportional to the pulse amplitude and the pulse width (=surface under the curve).png"/>&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/77777.png"/></center><br/><br/>
+<center><img src="images/The energy is proportional to the pulse amplitude and the pulse width (=surface under the curve).png"/>    <img src="images/77777.png"/></center><br/><br/>
 
 Energy calculation: Energy of stimulus is calculated from below given formula<br/><br/>
-
 <center><img src="images/888.png"/></center><br/><br/>
 Example :  5 V, 500 Ohm , 0.5 ms<br/><br/>
 <center><img src="images/999.png"/></center><br/><br/>
-
-
-
 </span></p>
-
-
-
-
 <!--[if gte mso 9]&gt;&lt;xml&gt;
     &lt;w:WordDocument&gt;
     &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -659,8 +589,7 @@ Example :  5 V, 500 Ohm , 0.5 ms<br/><br/>
     mso-bidi-theme-font:minor-bidi;}
     &lt;/style&gt;
     &lt;![endif]-->
-	
-	<!--<span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Malleability to form      small wires.</span></li>
+<!--<span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Malleability to form      small wires.</span></li>
 <li class="MsoNormal" style="line-height: 150%; text-align: justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Linear relationship of resistance and      temperature.</span></li>
 <li class="MsoNormal" style="line-height: 150%; text-align: justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Repeatability and stability. </span></li>
 <li class="MsoNormal" style="line-height: 150%; text-align: justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Corrosion. </span></li>
@@ -668,7 +597,6 @@ Example :  5 V, 500 Ohm , 0.5 ms<br/><br/>
 <li class="MsoNormal" style="line-height: 150%; text-align: justify;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Easy availability</span></li>
 </ul>
 -->
-
 <p style="text-align: justify;"> </p>
 <p style="text-align: justify;"><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
@@ -1326,10 +1254,7 @@ mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]-->
-
 <!--<b style=""><span style='font-size: 12pt; line-height: 115%; font-family: "Verdana","sans-serif"; color: black;'>RTD Performance Specifications</span></b><span style='font-size: 13.5pt; line-height: 115%; font-family: "Calibri","sans-serif"; color: black;'>:</span></p>-->
-
-
 <p style="text-align: justify;"> </p>
 <p style="text-align: justify;"><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
@@ -1659,14 +1584,10 @@ mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]--></p>
-
-
 <!--<p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: 150%; text-align: center;"><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>1</span><span style="font-size: 13.5pt; line-height: 150%; color: black;">. </span><strong><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>Temperature Coefficient </span></strong><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>: It is the change in resistance of the material per degree change in temperature. This value should be as high as possible to give higher accuracy of temperature measurement.</span></p>
 <p style="text-align: justify;"> </p>
 <p><input height="464" src="../images/userfiles/5/electrical%20resistanceTemp%20Curve.JPG" type="image" width="687"/></p>-->
-
 <p>
-
 <!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
 &lt;w:View&gt;Normal&lt;/w:View&gt;
@@ -2323,11 +2244,6 @@ mso-bidi-font-family:"Times New Roman";
 mso-bidi-theme-font:minor-bidi;}
 &lt;/style&gt;
 &lt;![endif]--></p>
-
-
-
-
-
 <!--<p class="MsoNormal" style="line-height: 150%;"><strong><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'>2.</span></strong><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif"; color: black;'> <strong>Accuracy</strong>:It is the comparison of measurement with standard results.That is how good the data is when compared with a recognized standard. The accuracy of a measurement system is the degree of closeness of measurements of a quantity to its actual (true) value.</span><span style='font-size: 12pt; line-height: 150%; font-family: "Verdana","sans-serif";'><br/>
 <br/>
 <strong><span style="color: black;">3</span></strong><span style="color: black;">. <strong>Stability</strong>: It is the measurement of drift over time. Stability is affected by sensor design. Well designed, high quality sensor will have less drift while high vibration, mechanical wear and tear and thermal shock will degrade the stability.</span><br/>
@@ -2349,138 +2265,111 @@ mso-bidi-theme-font:minor-bidi;}
 <strong><span style="color: black;">6. Insulation resistance</span></strong><span style="color: black;">: It is the largest cause of errors and failure of RTD. The causes can be an inadequate seal, high humidity environment, or a failed seal. In some cases baking the RTD assembly will increase the insulation resistance and recover the RTD. </span><br/>
 <br/>
 <strong><span style="color: black;">7. Self heating</span></strong><span style="color: black;">: The very small cross-sectional areas in the sensing elements will tend to heat when electrical current is applied. Most RTDs are specified to be operated with a current of 1 milliampere or less. </span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Times New Roman","serif"; color: black;'>﻿</span></p>-->
-
-
-
 <p class="MsoNormal" style="line-height: 150%;"> </p>
 <p class="MsoNormal" style="line-height: 150%;"> </p>
 <p class="MsoNormal" style="line-height: 150%;"> </p>
-<p class="MsoNormal" style="line-height: 150%;"> </p></div></div>
-</section>
-<section id="experiment-article-section-4">
-<div class="icon" id="experiment-article-section-4-icon">
-<!-- Enclose the icon image of your lab.-->
-<img src="../images/content_4.png"/>
-</div>
-<div class="heading" id="experiment-article-section-4-heading">
-          Simulator
-        </div>
-<div class="content" id="experiment-article-section-4-content"><div class="divContent">
-
-
-<p>
-
-Click <a href="../PaceMaker/PaceMaker.html" target="_blank">here <a/> to start the simulation 1 for Asynchronous pacemaker.<br/>
-
-Click <a href="../SynchronousPaceMaker/index.html" target="_blank">here <a/> to start the simulation 2 for synchronous pacemaker.<br/>
+<p class="MsoNormal" style="line-height: 150%;"> </p></p></p></div></div>						</div>
+					</div>
+			</div>
+			<!-- =================================================================================================================================== -->
 
 
 
-
-
-
-
-
-
-</p>
-
-</div></div>
-</section>
-<section id="experiment-article-section-5">
-<div class="icon" id="experiment-article-section-5-icon">
-<!-- Enclose the icon image of your lab.-->
-<!--<img src="../images/manual.jpg"/>-->
-<img src="../images/content_2.png"/>
-</div>
-<div class="heading" id="experiment-article-section-5-heading">
-          Procedure
-        </div>
-<div class="content" id="experiment-article-section-5-content"><div class="divContent">
-<!--<iframe allowfullscreen="" frameborder="0" height="480" src="https://www.youtube-nocookie.com/embed/c2bCO4EHguY?rel=0" width="853"></iframe>-->
-
-<h3 style="color: red; ">
-
-
-
-
-<p class="MsoNormal" style="line-height: 150%;"><span lang="EN-IN" style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'>
-
-
-   1.Run pacemaker simulator and observe the monophasic stimulus pulse.<br/>
-   2.Run pacemaker simulator and observe the biphasic stimulus pulse.<br/>
-   3.Run pacemaker simulator and observe the stimulus pulse by varying pulse width and voltage.<br/>
-   4.Run pacemaker simulator and observe the energy delivered from stimulus pulse.<br/><br/>
-
-<b>Go to the Simulator tab for performing the simulation.</b><br/>
-
-
-</div></div>
-</section>
-<section id="experiment-article-section-6">
-<div class="icon" id="experiment-article-section-6-icon">
-<!-- Enclose the icon image of your lab.-->
-<img src="../images/content_94.png"/>
-</div>
-<div class="heading" id="experiment-article-section-6-heading">
-          Post Test
-        </div>
-<div class="content" id="experiment-article-section-6-content"><div class="divQuiz"><div id="displayQuiz"><form id="form11" method="post" name="form11"><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		Because of the risk of electromagnetic interference, pacemaker patients should not be given</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6058" name="ans0" type="radio" value="6058"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6058">cancer treatment</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6057" name="ans0" type="radio" value="6057"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6057">diathermy treatment</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6059" name="ans0" type="radio" value="6059"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6059">saline water</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6060" name="ans0" type="radio" value="6060"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6060">the rooms with fans</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		In the case of stable total AV block, a pacemaker is chosen</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6061" name="ans1" type="radio" value="6061"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6061">	with constant frequency</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6062" name="ans1" type="radio" value="6062"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6062">that is atrial synchronous</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6063" name="ans1" type="radio" value="6063"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6063">that is ventricular synchronous</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6064" name="ans1" type="radio" value="6064"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6064">with variable frequency and synchronization with ventricular action</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">______is natural Pacemaker in Human Heart</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6065" name="ans2" type="radio" value="6065"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6065">	Right and left braches</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6066" name="ans2" type="radio" value="6066"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6066">Atrioventricular node (AV node)</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6067" name="ans2" type="radio" value="6067"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6067">Common AV Bundle</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6068" name="ans2" type="radio" value="6068"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6068">Sinoatrial node (SA Node)</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">		________sends the electrical impulse that triggers each heartbeat.</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6069" name="ans3" type="radio" value="6069"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6069">Left Branches</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6070" name="ans3" type="radio" value="6070"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6070">AV node</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6071" name="ans3" type="radio" value="6071"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6071">SA Node</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6072" name="ans3" type="radio" value="6072"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6072">Right Branches</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">	______is most important in case of external pacemaker.</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6073" name="ans4" type="radio" value="6073"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6073">Power source Battery</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6074" name="ans4" type="radio" value="6074"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6074">choice2Electrode types</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6075" name="ans4" type="radio" value="6075"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6075">Size and weight</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans6076" name="ans4" type="radio" value="6076"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans6076">All of the above</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><input align="middle" id="loadTime" name="loadTime" type="hidden" value="1379688873/"/><br/><div style="padding-left:40px;"><input id="submit1" name="submit1" onclick="get_radio_value();" style="width:8%;" type="submit" value=" Submit "/>  <input id="cancel1" name="cancel1" style="width:8%;" type="reset" value=" Cancel "/></div></form><br/></div><br/></div></div>
-</section>
-<section id="experiment-article-section-7">
-<div class="icon" id="experiment-article-section-7-icon">
-<!-- Enclose the icon image of your lab.-->
-<img src="../images/content_991.png"/>
-</div>
-<div class="heading" id="experiment-article-section-7-heading">
-            Conclusion
 			
-          </div>
+	</div> <!-- content div -->
+		
+	<footer>
+		<div class="container-fluid footer-div" style="background: url('../../../images/footer.png'); margin-top: 80px;  padding: 20px;">
+			<div class="col-md-4 border-right-green-dotted" >
+				<h2 class="text-h2-lightblue-small" style="font-weight: bold;margin-top: 0px;">Updates</h2>
+				<div><a href="http://vlead.vlabs.ac.in/2015/07/19/lab-integration-kit-1-0-0-released/" class="text-normal-gray-small nounderline" style="color: white" > Lab Integration Kit 1.0.0 Released</a></div>
+				<div><a href="http://vlead.vlabs.ac.in/2015/07/15/summer-sprint-integration-workshop-at-iit-guwahati/" class="text-normal-gray-small nounderline" style="color: white" > Summer Sprint Integration Workshop at IIT Guwahati</a></div>
+				<div><a href="http://vlead.vlabs.ac.in/2014/12/16/a-new-set-of-35-virtual-labs-on-portable-media/" class="text-normal-gray-small nounderline" style="color: white" > A new set of 35 Virtual Labs on Portable Media</a></div>
+			</div>
+			
+			<div class="col-md-2 border-right-green-dotted" >
+<!-- 				<h2 class="text-h2-lightblue-small" style="font-weight: bold;margin-top: 0px;">Nodal Centers</h2>
+				<div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > REGISTRATION</a></div>
+				<div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > LOGIN</a></div> -->
+				<!-- <div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > Outreach Portal</a></div> -->
+				<div><a href="http://vlead.virtual-labs.ac.in/" class="text-a-lightgreen" style="text-decoration: underline;" > VLEAD Blog</a></div>
+				<div><a href="http://www.sakshat.ac.in/" class="text-a-lightgreen" style="text-decoration: underline;" > Sakshat Portal</a></div>
+				<div><a href="http://118.102.191.38/feedback/Registration.html" class="text-a-lightgreen" style="text-decoration: underline;" > Nodal Center</a></div>
+			</div>
+			
+			<div class="col-md-3 border-right-green-dotted" >
+<!-- 				<div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > FAQ</a></div>
+				<div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > FEEDBACK</a></div>
+				<div><a href="#" class="text-a-lightgreen" style="text-decoration: underline;" > SAKSHAT PORTAL</a></div> -->
+				<div class="text-h2-lightblue-small"> Contact : <i class="fa fa-envelope-o" style="color: white; font-size: 0.8em;"></i> <a class="text-a-lightgreen" style="text-decoration: underline; font-size: 1.0em;" href="mailto:support@vlab.co.in">support@vlabs.ac.in</a></div>
+				<div><a href="http://118.102.191.38/feedback/feedback.html" class="text-a-lightgreen" style="text-decoration: underline;" > Feedback</a></div>
+			</div>
+			
+			<div class="col-md-2 border-right-green-dotted" >
+				<h2 class="text-h2-lightblue-small" style="font-weight: bold;margin-top: 0px;"> Follow us</h2>
+				<a href="https://www.facebook.com/pages/Virtual-Labs-IIT-Delhi/301510159983871" class="text-a-lightgreen nounderline"   target="_blank"> <img src="../../../images/social/fb.png"  style="border-radius: 50%;"/> </a>
+				<a href="https://twitter.com/TheVirtualLabs" class="text-a-lightgreen nounderline"   target="_blank"> <img src="../../../images/social/twitter.png"  style="border-radius: 50%;"/></a>
+				
+			</div>
+			
+ 		</div>
+	</footer>
 
-<div class="content" id="experiment-article-section-7-content">
-<div class="divContent">
 
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;">Results:-</span></strong></span></p>
+</div> <!-- top div -->
 
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">            1.Record the results for monophasic and biphasic waveform. </span></p>
+</body>
 
 
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">            2.Tabulate the results for pulsewidth and voltage control.</span></p>
+	<!-- jQuery -->
+    <script src="../../../js/jquery.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../../../js/bootstrap.min.js"></script>
 
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">            3.Tabulate the results for energy delivered by changing various control.</span></p>
-
-
-
-
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;"> 
-Assignment:-</span></strong></span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         1.What is the minimum and maximum energy produceed by the pacemaker.?</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         2. Comment on the output generated by internal and external pacemaker.</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         3. When does the patient required pacemaker? Describe  the situation.</span></p>
-
-
-
-
-<p><span style="font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);"><strong><span style="font-size: large;"> 
-Further Reading:-</span></strong></span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         1.Khandpur R. S., "Handbook of Biomedical Instrumentation", Tata McGraw-Hill, Second Edition.</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         2. Webster J. G., "Medical Instrumentation Application & Design", John Wiley & Sons, Inc., Fourth Edition.</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         3. Carr, J. J., Brown, J. M., 'Introduction to Biomedical Equipment Technology', Pearson Education, Fourth Edition.  </span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         4. Joseph D. Bronzino,” The biomedical engineering handbook”, Volume 1 & 2, CRC Press, USA, 2000.</span></p>
-
-<p style="margin-bottom: 0cm;"><span style="font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(51, 51, 51);">         5. John G. Webster, “Encyclopedia of Medical Devices and Instrumentation Vol. I , II, III, IV”, Wiley Publication. </span></p>
-
-</div></div>
-</section>
-
-</div>
-</article>
-</div>
-</body></html>
+	<!-- Custom Theme JavaScript -->
+    <script src="../../../js/custom.js"></script>
+    
+    <!-- Include js plugin -->
+	<script src="../../../vendors/owl-carousel/owl.carousel.js"></script>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		 
+		  var owl = $("#owl-demo");
+		  owl.owlCarousel({
+		      navigation: true,
+		      navigationText: [
+		                       "<img src='../../../images/left-arrow.png'>",
+		                       "<img src='../../../images/right-arrow.png'>"
+		                       ],
+		      /* autoPlay : 3000,
+		      stopOnHover : true */
+		  });
+		  
+		  //owl for partner institutions
+		  var owl = $("#owl-partner-institutions");
+		  owl.owlCarousel({
+		      navigation: true,
+		      navigationText: [
+		                       "<img src='../../../images/left-arrow.png'>",
+		                       "<img src='../../../images/right-arrow.png'>"
+		                       ],
+		      autoPlay : 3000,
+		      stopOnHover : true,
+		      items : 8,
+		  });
+		 
+		
+	
+	 //owl for aboutus
+	  var owl = $("#owl-aboutus");
+	  owl.owlCarousel({
+	      navigation: true,
+	      singleItem:true
+	  });
+	 
+	});
+	</script>
+	
+</html>

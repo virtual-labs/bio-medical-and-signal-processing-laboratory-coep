@@ -130,45 +130,78 @@ edit -->
 	      <!--Link and name of the experiment 1 -->
 	      <a href="AbnormalECG/index.html">	To simulate Electrocardiogram Waveform</a> 
 	    </li>
-	
+	  </ul>
+	</div>
+
+	<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
+	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="Electroencephalogram/index.html">To simulate Electroencephalogram Signal</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+	<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
+	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="ElectromyogramSignal/index.html">	To simulate Electromyogram Signal</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="Defibrillator/index.html">	To Simulate Defibrillator</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="PaceMaker/index.html">To simulate Pacemaker</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+
+<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
+	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="HaemoDialysis/index.html">To simulate Haemodialysis Machine</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+
+<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
+	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="EMGAmplifier/index.html">	To simulate Biopotential Amplifier</a> 
 	    </li>
+	  </ul>
+	</div>
 	
+	<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
 	      <a href="PulseMissingDetector/index.html">	To simulate ECG Pulse missing detector</a> 
 	    </li>
-	 
+	  </ul>
+	</div>
+	
+	<div id="lab-article-section-2-content" class="content">
+	  <ul id="list-of-experiments">
 	  
             <li> 
 	      <!--Link and name of the experiment 1 -->
