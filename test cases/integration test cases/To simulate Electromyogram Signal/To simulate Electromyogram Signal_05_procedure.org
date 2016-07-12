@@ -16,7 +16,7 @@
   - Open the url vlabs.ac.in and vlabs home page will be displayed
   - Click on "COE Pune" and a list of labs will be displayed on the screen
   - Select “Biomedical and Signal processing Laboratory”, a home page will be displayed on the screen and click on List of Experiments link, where a list of experiments will be displayed on the screen
-  - Select “To simulate Electroencephalogram Signal” experiment.
+  - Select “To simulate Electromyogram Signal” experiment.
 
 * Post condition
   - Nil
